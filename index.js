@@ -3,6 +3,8 @@ import {startStandaloneServer} from '@apollo/server';
 
 //server setup
 const server = new ApolloServer({
+//typeDefs
+//resolvers
 
 })
 
