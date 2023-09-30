@@ -3,5 +3,7 @@ import {startStandaloneServer} from '@apollo/server';
 
 //server setup
 const server = new ApolloServer({
-    
+
 })
+
+const {url} = await startStandaloneServer(server)
